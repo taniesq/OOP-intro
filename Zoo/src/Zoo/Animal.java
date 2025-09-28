@@ -2,110 +2,84 @@ package Zoo;
 
 import java.util.Date;
 
-public class Animal
-{// Attributes/fields/instance variable
+public class Animal {
     private String name;
     private int birthYear;
     private boolean isDangerous;
 
-    // empty constructor
-    public Animal() { }
+    public Animal () { }
 
-    // custom constructor
-    public Animal(String name, int birthYear, boolean isDangerous)
-    {   this.name = name;
+    public Animal(String name, int birthYear, boolean isDangerous) {
+        this.name = name;
         this.birthYear = birthYear;
         this.isDangerous = isDangerous;
     }
 
-    public Animal(String name, int birthYear)
-    {   this.name = name;
+    public Animal (String name, int birthYear) {
+        this.name = name;
         this.birthYear = birthYear;
-        this.isDangerous = false;
+        this.isDangerous = false; // setting the default danger to false
     }
 
-    public String getName()
-    {   return name;
+    public boolean isDangerous() {
+        return isDangerous;
     }
 
-    public void setName(String name)
-    {   this.name = name;
+    // now we shall create our very own getters and setters!!!!!! get hype
+    public String getName() {
+        return name;
     }
 
-    public int getBirthYear()
-    {   return birthYear;
+    public int getBirthYear() {
+        return birthYear;
     }
 
-    public void setBirthYear(int birthYear)
-    {   this.birthYear = birthYear;
+    public String getDangerous() {
+        if(isDangerous) { // if == true is implied
+            return "yessir!!!";
+        } else {
+            return "nosiree!!!";
+        }
     }
 
-    public boolean isDangerous()
-    {   return isDangerous;
+    // those r our getters,
+    // and now, we have our setters!!!!
+
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setDangerous(boolean dangerous)
-    {   isDangerous = dangerous;
+    public void setBirthYear(int birthYear) {
+        this.birthYear = birthYear;
     }
 
-    public String getDangerous()
-    {   if(isDangerous) // no need for == true
-        return "Yes";
-    else
-        return "No";
+    public void setDangerous (boolean isDangerous) {
+        this.isDangerous = isDangerous;
     }
 
-    // calculates the age of the animal in years
-    // USES the Java Date class from util
-    public int getAge()
-    {   Date currentDate = new Date();
+    // and that concludes our getters and setters!!! amazing
+
+    // now, we're going to calculate the age of our animal.
+    // this requires the Date class, which is kinda like a library
+    public int calcAge() {
+        Date currentDate = new Date();
         int currentYear = currentDate.getYear() + 1900;
         return currentYear - birthYear;
     }
 
-    /*  different parameter naming style for the constructor
-    public Animal(String n, int bY, boolean isD)
-    {   name = n;
-        birthYear = bY;
-        isDangerous = isD;
-    }
-    */
-
-    // provides a String representation of an Animal object
-    // Overrides the toString() method from the Object superclass
-    @Override
-    public String toString()
-    {
-        return "Name: " + name +
-                ", birthYear: " + birthYear +
-                ", Dangerous: " + getDangerous();
+    // since we can't really 'print' objects, we need to convert them to Strings
+    // there does exist a toString method, but this one is like customized? for our class!
+    public String toString() {
+        return "name: " + name
+                + "\n birth year: " + birthYear
+                + "\n dangerous?: " + isDangerous;
     }
 
-    public void talk()
-    {   System.out.println(this.name + " doesn't talk.");
+    public void talk() {
+        System.out.println(this.name + " has sworn a vow of silence.");
     }
 
-    public void eat()
-    {   System.out.println(name + " doesn't eat");
+    public void eat() {
+        System.out.println(name + " does not require sustenance to flourish.");
     }
-
-    /* It's not recommended to have a main method in OOP blueprint classes
-    public static void main(String[] args)
-    {   //Animal dog = new Animal(); // call the empty constructor
-        Animal dog; // declaration and initialisation can be broken down or in one line
-        //System.out.println(dog); // not initialised error
-        dog = new Animal("Fido Dido", 2017, false);
-        System.out.println(dog); // compare before and after toString method is added
-        // no toString() in Animal class: Animal@30f39991 or similar
-        // with toString() in the Animal class: Name: Fido Dido, birthYear: 2017, Dangerous: No
-        System.out.println(dog.name);  // this is only allowed within this class!
-        // print the remaining attributes of dog
-        System.out.println(dog.birthYear);
-        System.out.println(dog.isDangerous);
-        // change FIDO's name to "Snoopy" and print its name again
-        dog.name = "Snoopy";
-        System.out.println(dog.name);
-    }
-
-    */
 }
