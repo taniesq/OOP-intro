@@ -20,7 +20,7 @@ public class AnimalTest
         // change newAnimal's name to "Snoopy" and print its name again
         newAnimal.setName("Snoopy");
         System.out.println(newAnimal.getName());
-        System.out.println(newAnimal.getAge());
+        System.out.println(newAnimal.calcAge());
         System.out.println(newAnimal.toString());
         newAnimal.talk();
         newAnimal.eat();

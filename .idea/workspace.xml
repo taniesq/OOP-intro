@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbcc85a8-7628-49af-ac36-8f675de02e83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPtest/OOPtest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPtest/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPtest/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPtest/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPtest/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPtest/src/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPtest/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zoo/src/Zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zoo/src/Zoo/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fraction/src/Fraction/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fraction/src/Fraction/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zoo/src/Zoo/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zoo/src/Zoo/AnimalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +49,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Animal.executor": "Run",
     "Application.FractionTest.executor": "Run",
+    "Application.TestClass.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
@@ -49,9 +61,19 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OOPtest/src" />
+      <recent name="$PROJECT_DIR$/OOP-PracticeTest" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +90,7 @@
       <workItem from="1758074398180" duration="980000" />
       <workItem from="1758946175990" duration="33629000" />
       <workItem from="1759045991821" duration="7600000" />
+      <workItem from="1759054268598" duration="11858000" />
     </task>
     <servers />
   </component>
@@ -75,6 +98,21 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">

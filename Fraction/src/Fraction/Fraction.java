@@ -12,7 +12,7 @@ public class Fraction {
     public Fraction(int num, int demon) {
         this.num = num; // this object's num attribute is num
         this.demon = demon; // this object's demon attribute is demon
-        this.simplificate(); // why does this need to be here?
+        this.simplificate(); // why does this need to be here?: it doesn't; depends on what the user wants: ti simplify or not to simplify?
     }
 
     // today i made a getter. these are important
