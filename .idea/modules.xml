@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Fraction/Fraction.iml" filepath="$PROJECT_DIR$/Fraction/Fraction.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP intro.iml" filepath="$PROJECT_DIR$/OOP intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPFtest/OOPFtest.iml" filepath="$PROJECT_DIR$/OOPFtest/OOPFtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPtest/OOPtest.iml" filepath="$PROJECT_DIR$/OOPtest/OOPtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zoo/Zoo.iml" filepath="$PROJECT_DIR$/Zoo/Zoo.iml" />
     </modules>
